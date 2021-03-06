@@ -8,8 +8,8 @@ while again==True:
   try:
     inp=int(input("Guess my number! It is somewhere from 1 to 100! "))
     if inp == num:
+      print("You WON in just", str(turns), "chances!")
       while True:
-        print("You WON in just", str(turns), "chances!")
         time.sleep(1)
         a=input("Play again? (Y/N): ")
         if a == "N" or a == "No" or a == "n" or a == "no":
