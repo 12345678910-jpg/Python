@@ -1,3 +1,8 @@
+# This is my number guessing game! No, it doesn't have a virus. You're being paranoid.
+# So the computer will think of a number from 1-100, and you have to guess it.
+# You have infinite chances, and the computer will give you hints. Good luck!
+# Ooh, and also you can't break the game unless you change the code. The programme is fool-proof!
+
 import time
 import random
 
@@ -28,7 +33,7 @@ while again==True:
     elif inp > num:
       print("No, my number is smaller than", inp)
       turns = turns + 1
-      time.sleep(2)
+      time.sleep(1)
     elif inp < num:
       print("No, my number is larger than", inp)
       turns = turns + 1
